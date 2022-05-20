@@ -342,7 +342,7 @@ p, li, span, label, input, textarea {
 
 .input-field {
     width: 100%;
-    padding: 10px 0 10px 0;
+    padding: 10px 5px 10px 5px;
     background-color: var(--secondaryColor);
     border-radius: 5px;
     border: 1px solid var(--borderColor);
