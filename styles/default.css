@@ -251,6 +251,33 @@ p, li, span, label, input, textarea {
     left: -5px;
 }
 
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding: 50px 0 50px 0;
+    gap: 100px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+
+}
+
+.social-links {
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+
+#social-image {
+    width: 90%;
+    height: auto;
+}
+
+
+
 
 
 @media screen and (max-width: 1200px){
