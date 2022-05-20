@@ -29,7 +29,7 @@ h6 { font-size: 16px;}
 
 a {
     text-decoration: none;
-    color: #17a2b8;
+    color: var(--secondaryText);
 }
 
 ul {
@@ -67,13 +67,13 @@ p, li, span, label, input, textarea {
     display: grid;
     text-align: center;
     align-content: center;
-    border: 2px dashed lightcoral;
     min-height: 10em;
 }
 
 .intro-wrapper {
     background-color: var(--secondaryColor);
     border: 1px solid var(--borderColor);
+    border-radius: 5px 5px 0 0;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -89,25 +89,70 @@ p, li, span, label, input, textarea {
 
 .nav-wrapper {
     grid-area: nav-wrapper;
-    border: 1px dashed lightcoral;
+    border-bottom: 1px solid var(--borderColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--mainColor);
+    border-radius: 5px 5px 0 0;
+}
+
+#navigation {
+    margin: 0;
+    padding: 10px;
+}
+
+#navigation li {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.dots-wrapper {
+    display: flex;
+    padding: 10px;
+}
+
+#dot-1 {
+    background-color: #fc6058;
+}
+
+#dot-2 {
+    background-color: #fec02f;
+}
+
+#dot-3 {
+    background-color: #3aca3e;
+}
+
+.browser-dot {
+    background-color: #000;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    margin: 5px;
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .left-column {
     grid-area: left-column;
-    border: 1px dashed lightcoral;
+    
 }
 
 .right-column {
     grid-area: right-column;
-    border: 1px dashed lightcoral;
+    
 }
 
-
-@media screen and (max-width: 1200px) {
-    .main-container {
+@media screen and (max-width: 1200px){
+    .main-container{
         width: 95%;
     }
 }
+    
+
 
 
 
