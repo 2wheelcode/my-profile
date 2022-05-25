@@ -18,11 +18,8 @@ for (var i=0; themeDots.length > i; i++) {
 }
 
 function setTheme(mode) {
-    if(mode == 'light') {
-        document.getElementById('theme-style').href = 'styles/default.css'
-    }
     if(mode == 'blue') {
-        document.getElementById('theme-style').href = 'styles/blue.css'
+        document.getElementById('theme-style').href = 'styles/default.css'
     }
     if(mode == 'green') {
         document.getElementById('theme-style').href = 'styles/green.css'
@@ -30,6 +27,8 @@ function setTheme(mode) {
     if(mode == 'purple') {
         document.getElementById('theme-style').href = 'styles/purple.css'
     }
-
+    if(mode == 'light') {
+        document.getElementById('theme-style').href = 'styles/light.css'
+    }
     localStorage.setItem('theme', mode)
 }
