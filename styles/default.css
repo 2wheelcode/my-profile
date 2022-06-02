@@ -296,7 +296,7 @@ p, li, span, label, input, textarea {
 
 .post {
     border: 1px solid var(--borderColor);
-    border-radius: 5px;
+    border-radius: 8px;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
@@ -327,9 +327,11 @@ p, li, span, label, input, textarea {
 #contact-form {
     display: block;
     max-width: 600px;
-    margin: 0 auto;
+    margin: auto;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
     border: 1px solid var(--borderColor);
-    padding: 15px;
     border-radius: 5px;
     background-color: var(--mainColor);
     margin-bottom: 50px;
