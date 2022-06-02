@@ -347,7 +347,7 @@ p, li, span, label, input, textarea {
 }
 
 .input-field {
-    width: 98%;
+    width: 95%;
     margin: auto;
     padding: 10px 5px 10px 5px;
     background-color: var(--secondaryColor);
@@ -359,11 +359,12 @@ p, li, span, label, input, textarea {
 
 #submit-btn {
     margin-top: 10px;
-    width: 100%;
-    padding: 10px 0 10px 0;
+    width: 97%;
+    padding: 20px;
     color: #fff;
     background-color: var(--buttonColor);
-    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor);
 }
 
 
