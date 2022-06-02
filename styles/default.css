@@ -360,6 +360,7 @@ p, li, span, label, input, textarea {
 #submit-btn {
     margin-top: 10px;
     width: 97%;
+    line: height 2.7em;
     padding: 20px;
     color: #fff;
     background-color: var(--buttonColor);
