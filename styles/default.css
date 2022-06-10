@@ -168,6 +168,9 @@ p, li, span, label, input, textarea {
     width: auto;
     border: 2px solid var(--borderColor);
     border-radius: 5px;
+    -webkit-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    -moz-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
 }
 
 #theme-options-wrapper {
@@ -278,7 +281,9 @@ p, li, span, label, input, textarea {
     display: flex;
     justify-content: space-evenly;
     background-color: var(--previewShadow);
-
+    -webkit-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    -moz-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
 }
 
 .social-links {
@@ -290,7 +295,11 @@ p, li, span, label, input, textarea {
 #social-image {
     width: 90%;
     height: auto;
+    border: 1px solid var(--borderColor);
     border-radius: 5px;
+    -webkit-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    -moz-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
 }
 
 .post-wrapper {
@@ -304,9 +313,9 @@ p, li, span, label, input, textarea {
 .post {
     border: 1px solid var(--borderColor);
     border-radius: 8px;
-    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
-    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    -moz-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
 }
 
 .thumbnail {
@@ -344,6 +353,9 @@ p, li, span, label, input, textarea {
     align-items: center;
     border: 1px solid var(--borderColor);
     border-radius: 5px;
+    -webkit-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    -moz-box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
+    box-shadow:  1.7px 1.7px 1.7px 1.7px rgba(0,0,0,0.75);
     background-color: var(--mainColor);
     margin-bottom: 50px;
 }
