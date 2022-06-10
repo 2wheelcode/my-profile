@@ -33,6 +33,13 @@ h1, h2, h3, h4, h5, h6, strong {
     font-weight: 500;
 }
 
+.motto {
+    text-align: center;
+    margin-top: 5rem;
+    font-style: italic;
+    font-weight: 100;
+}
+
 h1 { font-size: 56px;}
 h2 { font-size: 36px;}
 h3 { font-size: 28px;}
@@ -322,6 +329,10 @@ p, li, span, label, input, textarea {
 .post-intro {
     color:#4b5156;
     font-size: 16px;
+}
+
+#motto-sec {
+    min-height: 400px;
 }
 
 #contact-form {
